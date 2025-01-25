@@ -1,0 +1,101 @@
+.about{
+    background-color: #F9F8F8;
+    .container{
+        display: flex;
+        align-items:center;
+        justify-content:end;
+        gap: 20px;
+    }
+    &__image{
+        width: 50%;
+        height: 100%;
+        &-img{
+            width: 100%;
+            height: 100%;
+        }
+    }
+    &__block{
+        padding: 60px 0;
+        width: 50%;
+        &-title{
+            font-family: Yellowtail;
+            font-size: 22px;
+            font-weight: 400;
+            color: #68A47F;
+        }
+        &-subtitle{
+            width: 57%;
+            font-family: Roboto;
+            font-size: 33px;
+            font-weight: 800;
+            color: #274C5B;
+        }
+        &-text{
+            padding-top: 10px;
+            padding-bottom: 15px;
+            width: 91%;
+            font-family: Open Sans;
+            font-size: 14px;
+            font-weight: 400;
+            color: #525C60;
+        }
+        &-card{
+            padding-top: 15px;
+            width:100%;
+            display: flex;
+            align-items:center;
+            justify-content: start;
+            gap: 20px;
+        }
+        &-mindiv{
+            width: 60px;
+            height: 60px;
+            border-radius: 15px;
+            box-shadow: 0px 2px 10px 3px rgba(93, 93, 93, 0.259);
+            &:hover{
+            box-shadow: 0px 3px 10px 3px rgba(66, 66, 66, 0.349);
+            }
+        }
+        &-img{
+            width: 100%;
+            height: 100%;
+        }
+        &-blok{
+            width: 60%;
+        }
+        &-mintitle{
+            font-family: Roboto;
+            font-size: 22px;
+            font-weight: 800;
+            color: #274C5B;
+            color: #274C5B;
+        }
+        &-subtext{
+            width: 100%;
+            font-family: Open Sans;
+            font-size: 14px;
+            font-weight: 400;
+            color: #525C60;
+        }
+        &-button{
+            padding-top: 20px;
+            button{
+                color: #F9F8F8;
+                background-color: #274C5B;
+                width:120px;
+                height: 40px;
+                gap: 10px;
+                border-radius: 6px;
+                border: none;
+                display: flex;
+                align-items:center;
+                justify-content:center;
+                box-shadow: 0px 3px 10px 0px rgba(89, 89, 89, 0.743);
+                &:hover{
+                    box-shadow: 0px 3px 10px 0px rgb(80, 80, 80);
+                    background-color:#073a50 ;
+                }
+            }
+        }
+    }
+}

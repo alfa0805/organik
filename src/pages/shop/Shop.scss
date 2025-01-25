@@ -1,0 +1,96 @@
+.shop{
+    background-color:#FFF;
+    .container{
+        padding: 80px 0;
+        display: flex;
+        flex-direction: column;
+        align-items:center;
+        justify-content:center;
+        gap: 20px;
+    }
+    &-title{
+        font-family: Yellowtail;
+        text-align: center;
+        font-size: 22px;
+        font-weight: 400;
+        color: #68A47F;
+    }
+    &-subtitle{
+        font-family: Roboto;
+        text-align: center;
+        font-size: 33px;
+        font-weight: 800;
+        color: #274C5B;
+    }
+    &__cards{
+        display: flex;
+        align-items:start;
+        justify-content:center;
+        flex-wrap: wrap;
+        gap:20px;
+        &-card{
+            padding: 8px;
+            box-shadow: 0px 3px 10px 3px rgba(162, 161, 161, 0.504);
+            width: 285px;
+            height: 355px;
+            border-radius: 10px;
+            &:hover{
+            box-shadow: 0px 3px 10px 3px rgba(99, 98, 98, 0.736);
+            transition: all 0.5s;
+            transform:scale(101%);
+            }
+            p{
+                width: 80px;
+                padding-top: 2px;
+                height: 20px;
+                border-radius: 3px;
+                background-color: #274C5B;
+                font-family: Open Sans;
+                font-size: 10px;
+                font-weight: 600;
+                line-height:15px;
+                text-align: center;
+                color: #FFFFFF;
+            }
+            h2{
+                font-family: Roboto;
+                text-align:start;
+                font-size: 18px;
+                font-weight: 800;
+                color: #274C5B; 
+                border-bottom: 1px solid #DEDDDD;
+            }
+
+        }
+        &-bgc{
+            img{
+                width:270px;
+                height: 270px;
+            }
+        }
+        &-bottom{
+            display: flex;
+            align-items:center;
+            justify-content:space-between;
+            span{
+                display: flex;
+                align-items: center;
+                gap: 8px;
+                p{  
+                    width: 35px;
+                    color: #B8B8B8;
+                    background-color:#FFF;
+                }
+                h3{
+                    font-family: Open Sans;
+                    font-size: 12px;
+                    font-weight: 700;
+                    line-height: 18px;
+                    text-align: center;
+
+                }
+            }
+        }
+
+    }
+}

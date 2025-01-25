@@ -1,0 +1,101 @@
+.main {
+  background-image: url(./../../assets/Banner.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 550px;
+}
+.main .container {
+  height: 100%;
+  padding-left: 15vw;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+.main__card {
+  width: 300px;
+  height: 245px;
+}
+.main__card-text {
+  font-family: Yellowtail;
+  font-size: 22px;
+  font-weight: 400;
+  color: #68A47F;
+}
+.main__card-title {
+  padding-bottom: 30px;
+  font-family: Roboto;
+  font-size: 41px;
+  font-weight: 800;
+  text-align: left;
+  text-underline-position: from-font;
+  -webkit-text-decoration-skip-ink: none;
+          text-decoration-skip-ink: none;
+  color: #274C5B;
+}
+.main__card-btn {
+  background-color: #EFD372;
+  width: 120px;
+  height: 40px;
+  gap: 10px;
+  border-radius: 6px;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0px 3px 10px 0px rgba(137, 137, 137, 0.699);
+}
+.main__card-btn:hover {
+  box-shadow: 0px 3px 10px 0px rgb(117, 115, 115);
+  background-color: #fbdf55;
+}
+
+.get .container {
+  height: 440px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+}
+.get__Natural {
+  background-image: url(./../../assets/natural.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 420px;
+  padding: 61.4px 40px;
+  border-radius: 18px;
+}
+.get__Natural-text {
+  font-family: Yellowtail;
+  font-size: 22px;
+  font-weight: 400;
+  color: #FFF;
+}
+.get__Natural-title {
+  width: 50%;
+  font-family: Roboto;
+  font-size: 30px;
+  font-weight: 800;
+  color: #FFF;
+}
+.get__Offer {
+  background-image: url(./../../assets/offer.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 420px;
+  padding: 61.4px 40px;
+  border-radius: 18px;
+}
+.get__Offer-text {
+  font-family: Yellowtail;
+  font-size: 22px;
+  font-weight: 400;
+  color: #68A47F;
+}
+.get__Offer-title {
+  width: 57%;
+  font-family: Roboto;
+  font-size: 30px;
+  font-weight: 800;
+  color: #274C5B;
+}/*# sourceMappingURL=Section.css.map */

@@ -1,0 +1,100 @@
+.toggle {
+  background-color: #274C5B;
+  padding: 100px 0;
+}
+.toggle .container {
+  width: 100%;
+}
+.toggle-text {
+  font-size: 17px;
+  color: #7EB693;
+}
+.toggle__box {
+  display: flex;
+  justify-content: space-between;
+}
+.toggle__box-title {
+  font-size: 47px;
+  color: #fff;
+}
+.toggle__box-btn {
+  display: flex;
+  align-items: center;
+  background-color: #EFD372;
+  border: none;
+  outline: none;
+  padding: 6px 20px;
+  font-size: 18px;
+  gap: 5px;
+  border-radius: 10px;
+  font-weight: 700;
+  color: #274C5B;
+}
+.toggle__cards {
+  padding-top: 50px;
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.toggle__cards-card {
+  background-color: #FFFFFF;
+  padding: 8px;
+  box-shadow: 0px 3px 10px 3px rgb(31, 29, 29);
+  width: 275px;
+  height: 345px;
+  border-radius: 10px;
+}
+.toggle__cards-card:hover {
+  box-shadow: 0px 3px 10px 3px #1a80a9;
+  transition: all 0.5s;
+  transform: scale(101%);
+}
+.toggle__cards-card p {
+  width: 80px;
+  padding-top: 2px;
+  height: 20px;
+  border-radius: 3px;
+  background-color: #274C5B;
+  font-family: Open Sans;
+  font-size: 10px;
+  font-weight: 600;
+  line-height: 15px;
+  text-align: center;
+  color: #FFFFFF;
+}
+.toggle__cards-card h2 {
+  font-family: Roboto;
+  text-align: start;
+  font-size: 18px;
+  font-weight: 800;
+  color: #274C5B;
+  border-bottom: 1px solid #DEDDDD;
+}
+.toggle__cards-bgc img {
+  width: 260px;
+  height: 260px;
+}
+.toggle__cards-bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.toggle__cards-bottom span {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.toggle__cards-bottom span p {
+  width: 35px;
+  color: #B8B8B8;
+  background-color: #FFF;
+}
+.toggle__cards-bottom span h3 {
+  font-family: Open Sans;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 18px;
+  text-align: center;
+}/*# sourceMappingURL=Toggle.css.map */
