@@ -6,11 +6,23 @@ import twitter from "../../assets/twitter.svg";
 import pinteres from "../../assets/pinteres.svg";
 import logo from "../../assets/logo.svg";
 
+import 'aos/dist/aos.css'; 
+import AOS from 'aos'
+import { useEffect } from 'react';
+
 function Footer() {
+
+    useEffect(() => {
+      AOS.init({
+        duration: 1000,
+        once: false, 
+      });
+    }, []);
+
   return (
     <>
       <footer className="footer">
-        <div className="container">
+        <div data-aos="fade-up" data-aos-duration="1000" className="container">
           <div className="footer__box footer">
             <div className="footer__left">
               <ul className="footer__left__list list">

@@ -4,9 +4,19 @@ import Icon1 from "../../assets/icon1.png"
 import Icon2 from "../../assets/icon2.png"
 import Photo from "../../assets/Photo.png"
 import { MdArrowCircleRight } from "react-icons/md";
-
+import 'aos/dist/aos.css'; 
+import AOS from 'aos'
+import { useEffect } from 'react';
 
 function About() {
+
+        useEffect(() => {
+          AOS.init({
+            duration: 1000,
+            once: false, 
+          });
+        }, []);
+
   return (
     // <div>salom</div>
     <div className="about">
@@ -14,7 +24,7 @@ function About() {
             <div className="about__image">
                 <img src={Photo} alt="img" className='about__image-img' />
             </div>
-            <div className="about__block">
+            <div data-aos="fade-left" className="about__block">
                 <h3 className="about__block-title">About Us</h3>
                 <h2 className="about__block-subtitle">We Believe in Working
                 Accredited Farmers

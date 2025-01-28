@@ -5,9 +5,19 @@ import Photo1 from '../../assets/Photo1.png'
 import Photo2 from '../../assets/Photo2.png'
 import Photo3 from '../../assets/Photo3.png'
 
-
+import 'aos/dist/aos.css'; 
+import AOS from 'aos'
+import { useEffect } from 'react';
 
 function Shop() {
+
+  useEffect(() => {
+    AOS.init({
+      duration: 1000,
+      once: false, 
+    });
+  }, []);
+
   return (
     <div>
       <div className="shop">
@@ -15,7 +25,7 @@ function Shop() {
           <h3 className="shop-title">Categories </h3>
           <h2 className="shop-subtitle">Our Products</h2>
           <div className="shop__cards">
-            <div className="shop__cards-card">
+            <div data-aos="zoom-in" className="shop__cards-card">
                 <p>Vegetable</p>
               <div className="shop__cards-bgc">
                 <img src={Photo1} alt="" />
@@ -29,7 +39,7 @@ function Shop() {
                 <img src={Stars} alt="" />
               </div>
             </div>
-            <div className="shop__cards-card">
+            <div data-aos="zoom-in" className="shop__cards-card">
                 <p>Vegetable</p>
               <div className="shop__cards-bgc">
                 <img src={Photo2} alt="" />
@@ -43,7 +53,7 @@ function Shop() {
                 <img src={Stars} alt="" />
               </div>
             </div>
-            <div className="shop__cards-card">
+            <div data-aos="zoom-in" className="shop__cards-card">
                 <p>Vegetable</p>
               <div className="shop__cards-bgc">
                 <img src={Photo3} alt="" />
@@ -57,7 +67,7 @@ function Shop() {
                 <img src={Stars} alt="" />
               </div>
             </div>
-            <div className="shop__cards-card">
+            <div data-aos="zoom-in" className="shop__cards-card">
                 <p>Vegetable</p>
               <div className="shop__cards-bgc">
                 <img src={Photo1} alt="" />
@@ -71,7 +81,7 @@ function Shop() {
                 <img src={Stars} alt="" />
               </div>
             </div>
-            <div className="shop__cards-card">
+            <div data-aos="zoom-in" className="shop__cards-card">
                 <p>Vegetable</p>
               <div className="shop__cards-bgc">
                 <img src={Photo2} alt="" />
@@ -85,7 +95,7 @@ function Shop() {
                 <img src={Stars} alt="" />
               </div>
             </div>
-            <div className="shop__cards-card">
+            <div data-aos="zoom-in" className="shop__cards-card">
                 <p>Vegetable</p>
               <div className="shop__cards-bgc">
                 <img src={Photo3} alt="" />
@@ -99,7 +109,7 @@ function Shop() {
                 <img src={Stars} alt="" />
               </div>
             </div>
-            <div className="shop__cards-card">
+            <div data-aos="zoom-in" className="shop__cards-card">
                 <p>Vegetable</p>
               <div className="shop__cards-bgc">
                 <img src={Photo1} alt="" />
@@ -113,7 +123,7 @@ function Shop() {
                 <img src={Stars} alt="" />
               </div>
             </div>
-            <div className="shop__cards-card">
+            <div data-aos="zoom-in" className="shop__cards-card">
                 <p>Vegetable</p>
               <div className="shop__cards-bgc">
                 <img src={Photo2} alt="" />

@@ -4,11 +4,23 @@ import "./Content.scss";
 import image from "../../assets/image.svg";
 import star from "../../assets/star.svg";
 
+import 'aos/dist/aos.css'; 
+import AOS from 'aos'
+import { useEffect } from 'react';
+
 function Content() {
+
+  useEffect(() => {
+    AOS.init({
+      duration: 1000,
+      once: false, 
+    });
+  }, []);
+
   return (
     <div className="content">
       <div className="container">
-        <div className="content__wrapper">
+        <div data-aos="fade-up" data-aos-duration="2000" className="content__wrapper">
           <p className="content__wrapper-text">Testimonial</p>
           <h1 className="content__wrapper-title">What Our Customer Saying?</h1>
           <img src={image} alt="" className="content__wrapper-img" />
